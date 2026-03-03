@@ -1,45 +1,52 @@
-# 🎓 Student Performance Prediction
+🎓 Student Performance Prediction
+📌 Project Overview
 
-## 📌 Project Overview
-This project predicts students' math scores using machine learning techniques.  
-It demonstrates an end-to-end data science workflow from data preprocessing to deployment using Flask.
+A machine learning project to predict students' math scores using demographic and academic features.
+Demonstrates a complete data science workflow: data exploration, preprocessing, model evaluation, and web app deployment using Flask.
 
----
+📁 Dataset
 
-## 📁 Dataset
-- Student Performance Dataset
-- Target Variable: Math Score
-- Features: Gender, Parental Education, Lunch Type, Test Preparation, Reading & Writing Scores
+Student Performance Dataset
 
----
+Target: Math Score
 
-## ⚙️ Workflow
-- Data Ingestion
-- Data Preprocessing & Feature Engineering
-- Model Training & Evaluation
-- Flask Web App Deployment
+Features: Gender, Race/Ethnicity, Parental Education, Lunch Type, Test Preparation Course, Reading & Writing Scores
 
----
+⚙️ Workflow
 
-## 🤖 Models Used
-- Linear Regression
-- Decision Tree
-- Random Forest
-- Gradient Boosting
+Data Ingestion
 
----
+Data Cleaning & Feature Engineering
 
-## 🛠 Tech Stack
-Python | Pandas | NumPy | Scikit-learn | Flask | HTML | CSS
+Model Training & Evaluation with multiple algorithms
 
----
+Flask Web App Deployment for predictions
 
-## 🚀 Run Locally
-git clone <repo-link>  
-pip install -r requirements.txt  
+🤖 Models Explored
+
+Linear Regression
+
+Decision Tree Regressor
+
+Random Forest Regressor
+
+Gradient Boosting / CatBoost / XGBoost
+
+🛠 Tech Stack
+
+Python | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn | CatBoost | XGBoost | Flask | HTML/CSS
+
+🚀 How to Run Locally
+git clone <repo-link>
+cd <repo-folder>
+pip install -r requirements.txt
 python app.py
+✅ Key Learnings & Notes
 
----
+Explored ML workflow from data preprocessing to model evaluation
 
-## ✅ Outcome
-Successfully built and deployed a machine learning model to predict student performance.
+Practiced working with multiple ML algorithms and metrics (R2, MAE, RMSE)
+
+Flask app demonstrates web deployment of a predictive model
+
+Note: Model training notebook is a work-in-progress; trained model (model.pkl) is not included
